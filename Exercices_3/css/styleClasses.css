@@ -6,6 +6,8 @@
 body{
     width: 900px; /*Largeur du site*/
     margin: auto;
+    text-decoration: none;
+
 }
 
 
@@ -14,6 +16,7 @@ body{
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: fixed;
+
 }
 
 
@@ -57,13 +60,14 @@ li a:hover {
     font-family: 'Poiret One', cursive;
     font-size: 5em;
     color: lightyellow;
-    margin-top: 0,5em;
+    margin-top: 0.5em;
     text-align: center;
 
 }
-.titre :hover{
+.titre:hover{
     color: darkblue;
 }
+
 h1 :hover{
     color: darkblue;
 }
