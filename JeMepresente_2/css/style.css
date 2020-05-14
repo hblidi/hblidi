@@ -52,25 +52,19 @@ li a:hover {
 . header nav {
     width: 100%;
 }
-/*navigation */
+/*        */
 
 
-#titre {
+.titre, h4 {
     font-family: 'Poiret One', cursive;
     font-size: 5em;
-    color: lightyellow;
     margin-top: 0,5em;
     text-align: center;
-
+    color: white;
 }
-#titre :hover{
+h4:hover{
     color: darkblue;
 }
-h1 :hover{
-    color: darkblue;
-}
-
-
 h1 {
     font-family: "Roboto Light 300",sans-serif;
     font-size: 36px;
@@ -79,25 +73,39 @@ h1 {
 
 }
 p {
-    margin: 0;
+    margin: 1.5em;
     text-indent: 3ch;
     color: whitesmoke;
-    text-align: center;
+    text-align: justify;
     font-family: "Roboto Thin 100",sans-serif;
     font-size: 20px;
 
 }
-a :hover {
-    color: lightskyblue;
-
-}
-a :visited {
+a :hover{
     color: darkblue;
 
 }
-.fasfa-graduation-cap {
-    color: lavender;
+a :visited{
+    color: #05728b;
+
 }
+.fas fa-graduation-cap {
+    color: darkblue;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+li {
+    font-size:20px;
+    font-family: "Roboto Light";
+    color: white;
+}
+
+
+
+
 
 
 
@@ -128,6 +136,7 @@ img {
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
+    border-radius: 8px;
 }
 .middle {
     transition: .5s ease;
@@ -152,10 +161,16 @@ img {
     padding: 16px 32px;
     font-family: "Roboto Thin 100",sans-serif;
 }
+#image {
+    height: 80px;
+    width: 80px;
+}
+#image:hover{
+    opacity: 0.3;
+}
 
 
-
-/*image */
+/*                */
 
 
 
