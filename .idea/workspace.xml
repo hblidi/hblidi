@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ab44f87c-586c-4aaa-88bd-3ec81377e4a6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1cBsSIL0U9wzOILM3sm1oqWULcL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/exercice_06" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HP Elite\Desktop\hblidi\exercice_06" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab44f87c-586c-4aaa-88bd-3ec81377e4a6" name="Default Changelist" comment="" />
+      <created>1590013318966</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590013318966</updated>
+      <workItem from="1590013320817" duration="1098000" />
+      <workItem from="1590016269466" duration="41965000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="540" y="186" key="#Inspections" timestamp="1590026490495">
+      <screen x="0" y="0" width="1920" height="1016" />
+    </state>
+    <state x="540" y="186" key="#Inspections/-1920.0.1536.813/1920.0.1920.1040/0.0.1920.1016@0.0.1920.1016" timestamp="1590026490495" />
+    <state x="484" y="316" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590077848758">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="484" y="316" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1500.960@0.0.1500.960" timestamp="1590077848758" />
+    <state x="740" y="262" key="FileChooserDialogImpl" timestamp="1590017544528">
+      <screen x="0" y="0" width="1920" height="1016" />
+    </state>
+    <state x="740" y="262" key="FileChooserDialogImpl/-1920.0.1536.813/1920.0.1920.1040/0.0.1920.1016@0.0.1920.1016" timestamp="1590017544528" />
+    <state x="461" y="152" key="SettingsEditor" timestamp="1590013619346">
+      <screen x="0" y="0" width="1920" height="1016" />
+    </state>
+    <state x="461" y="152" key="SettingsEditor/-1920.0.1536.813/1920.0.1920.1040/0.0.1920.1016@0.0.1920.1016" timestamp="1590013619346" />
+    <state x="733" y="381" width="612" height="282" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1590013444189">
+      <screen x="0" y="0" width="1920" height="1016" />
+    </state>
+    <state x="733" y="381" width="612" height="282" key="org.intellij.images.editor.actions.BackgroundImageDialog/-1920.0.1536.813/1920.0.1920.1040/0.0.1920.1016@0.0.1920.1016" timestamp="1590013444189" />
+  </component>
+</project>
