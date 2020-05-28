@@ -16,19 +16,20 @@
 }
 .fondrgris{
      background-color:saddlebrown;
-     height: 500px;
+
+
  }
 .fondbleu{
     background-color: white;
-    height: 500px;
+
 }
 .fondvert{
     background-color:white;
-    height: 500px;
+
 }
 .fond{
     background-color: white;
-    height: 200px;
+
 }
 hr{
     margin-bottom:30px;
@@ -55,6 +56,7 @@ hr{
     cursor: pointer;
     background-color: saddlebrown;
     border-radius: 20px;
+
 }
 .button2{
     border: none;
@@ -64,6 +66,7 @@ hr{
     cursor: pointer;
     background-color: white;
     border-radius: 20px;
+    margin-bottom: 35px;
 }
 #bloc2{
     background-color: saddlebrown;
@@ -114,11 +117,7 @@ p{
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.img{
-    width: 624px;
-    height: 500px;
 
-}
 .far{
     font-size: 60px;
     color: saddlebrown;
