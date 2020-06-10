@@ -13,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -31,7 +31,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/exercice_06" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Techniques_integration_des_interfaces_Web 1/Examen2/index.html" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -39,10 +39,15 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP Elite\Desktop\hblidi\exercices" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HP Elite\Desktop\hblidi\exercices" />
+      <recent name="C:\Users\HP Elite\Desktop\hblidi\ficher" />
       <recent name="C:\Users\HP Elite\Desktop\hblidi\exercice_06" />
     </key>
   </component>
@@ -58,7 +63,12 @@
       <updated>1590013318966</updated>
       <workItem from="1590013320817" duration="1098000" />
       <workItem from="1590016269466" duration="41965000" />
-      <workItem from="1590427131029" duration="45577000" />
+      <workItem from="1590427131029" duration="50691000" />
+      <workItem from="1591209962346" duration="18994000" />
+      <workItem from="1591270327955" duration="35909000" />
+      <workItem from="1591528545668" duration="19001000" />
+      <workItem from="1591662583297" duration="12384000" />
+      <workItem from="1591810270252" duration="7366000" />
     </task>
     <servers />
   </component>
@@ -70,21 +80,32 @@
       <screen x="0" y="0" width="1920" height="1016" />
     </state>
     <state x="540" y="186" key="#Inspections/-1920.0.1536.813/1920.0.1920.1040/0.0.1920.1016@0.0.1920.1016" timestamp="1590026490495" />
-    <state x="484" y="316" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590077848758">
+    <state x="484" y="316" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591294194141">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="484" y="316" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1500.960@0.0.1500.960" timestamp="1590077848758" />
-    <state x="740" y="262" key="FileChooserDialogImpl" timestamp="1590017544528">
-      <screen x="0" y="0" width="1920" height="1016" />
+    <state x="484" y="316" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1500.960@0.0.1500.960" timestamp="1591294194141" />
+    <state x="578" y="247" key="FileChooserDialogImpl" timestamp="1591812389868">
+      <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="740" y="262" key="FileChooserDialogImpl/-1920.0.1536.813/1920.0.1920.1040/0.0.1920.1016@0.0.1920.1016" timestamp="1590017544528" />
-    <state x="461" y="152" key="SettingsEditor" timestamp="1590013619346">
-      <screen x="0" y="0" width="1920" height="1016" />
+    <state x="740" y="262" key="FileChooserDialogImpl/-1920.0.1536.813/1920.0.1920.1040/0.0.1920.1016@0.0.1920.1016" timestamp="1591232314655" />
+    <state x="740" y="268" key="FileChooserDialogImpl/-1920.0.1536.832/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1591660331459" />
+    <state x="578" y="247" key="FileChooserDialogImpl/0.0.1500.960@0.0.1500.960" timestamp="1591812389868" />
+    <state x="461" y="156" key="SettingsEditor" timestamp="1591662802654">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="152" key="SettingsEditor/-1920.0.1536.813/1920.0.1920.1040/0.0.1920.1016@0.0.1920.1016" timestamp="1590013619346" />
+    <state x="461" y="156" key="SettingsEditor/-1920.0.1536.832/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1591662802654" />
     <state x="733" y="381" width="612" height="282" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1590013444189">
       <screen x="0" y="0" width="1920" height="1016" />
     </state>
     <state x="733" y="381" width="612" height="282" key="org.intellij.images.editor.actions.BackgroundImageDialog/-1920.0.1536.813/1920.0.1920.1040/0.0.1920.1016@0.0.1920.1016" timestamp="1590013444189" />
+    <state x="783" y="224" key="run.anything.popup" timestamp="1591378470796">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="783" y="224" key="run.anything.popup/0.0.1500.960@0.0.1500.960" timestamp="1591378470796" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1591658282631">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1536.832/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1591658282631" />
   </component>
 </project>

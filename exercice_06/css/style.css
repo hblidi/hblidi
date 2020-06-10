@@ -11,8 +11,8 @@
 .fondrouge{
     background-image: url("../image/background.jpg");
     background-repeat: no-repeat;
-    height: 900px;
-    background-position: 50% 50%;
+    background-size: cover;
+    padding: 200px;
 }
 .fondrgris{
      background-color:saddlebrown;
@@ -72,11 +72,12 @@ hr{
     background-color: saddlebrown;
 }
 h1{
-    font-family: "Roboto Light 300", sans-serif;
+    font-family: Candara;
     font-size: 80px;
     text-align: center;
     color: white;
     padding-top: 200px;
+
 
 }
 h2{
@@ -123,4 +124,7 @@ p{
     color: saddlebrown;
     text-align: center;
     padding-top: 100px;
+}
+.img{
+    width: 100%;
 }
