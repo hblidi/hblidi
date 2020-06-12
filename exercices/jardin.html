@@ -12,8 +12,8 @@
     <title>Menu</title>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg">
-    <a class="navbar-brand" href="#">Navbar</a>
+<nav class="navbar navbar-expand-lg fixed-top">
+    <a class="navbar-brand" href="index.html"><img class="logo" src="image/logo-1446293_1920.png"/></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -23,8 +23,8 @@
             <ul class="navbar-nav">
                 <li class="nav-item active"><a class="nav-link" href="index.html">Menu</a></li>
                 <li class="nav-item"><a class="nav-link" href="jardin.html">Jardin<span class="sr-only">(current)</span></a></li>
-                <li class="nav-item"><a class="nav-link" href="nouriture.html">Nouriture</a></li>
-                <li class="nav-item"><a class="nav-link disabled" href="voyage.html">Voyage</a></li>
+                <li class="nav-item"><a class="nav-link" href="plantesInterieur.html">Plantes d'intérieur</a></li>
+                <li class="nav-item"><a class="nav-link" href="amenagement.html">Aménagement paysager</a></li>
             </ul>
         </div>
         <div class="text-center mr-4">
@@ -34,31 +34,60 @@
         </div>
     </div>
 </nav>
-<div class="carousel-inner">
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
     <ul class="carousel-indicators">
         <li data-target="#demo" data-slide-to="0" class="active"></li>
         <li data-target="#demo" data-slide-to="1"></li>
         <li data-target="#demo" data-slide-to="2"></li>
     </ul>
-    <div class="carousel-item active no-gutters">
-        <img src="image/garden-302259_1920.jpg" alt="girl">
-    </div>
-    <div class="carousel-item">
-        <img src="image/rose-2721846_1920.jpg" alt="nouriture">
-    </div>
-    <div class="carousel-item">
-        <img src="image/nature-670516_1920.jpg" alt="jardin">
-    </div>
-</div>
-<!-- Left and right controls -->
-<a class="carousel-control-prev" href="#demo" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-</a>
-<a class="carousel-control-next" href="#demo" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-</a>
 
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="image/ivy.jpg" alt="ivy">
+        </div>
+        <div class="carousel-item">
+            <img src="image/nature.jpg" alt="nature" >
+        </div>
+        <div class="carousel-item">
+            <img src="image/garden.jpg" alt="garden">
+        </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <div class="leaf">
+            <i class="fas fa-leaf"></i>
+        </div>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+        <div class="leaf">
+            <i class="fas fa-leaf"></i>
+        </div>
+    </a>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

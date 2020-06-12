@@ -1,0 +1,18 @@
+/* exercice_jumbotron */
+/* par Hadia Blidi */
+/* Le 10-06-2020 */
+
+.display-4{
+    font-family: Roboto;
+    font-size: 3em;
+    text-align: center;
+}
+.logo img {
+    width: 100px;
+    height: 100px;
+    padding-bottom: 1rem;
+}
+.modal-header{
+    background-color: #b21f2d;
+}
+
