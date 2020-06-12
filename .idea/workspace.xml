@@ -71,7 +71,7 @@
       <workItem from="1591662583297" duration="12384000" />
       <workItem from="1591810270252" duration="22248000" />
       <workItem from="1591877541414" duration="10265000" />
-      <workItem from="1591964400953" duration="5906000" />
+      <workItem from="1591964400953" duration="10614000" />
     </task>
     <servers />
   </component>
@@ -99,6 +99,10 @@
     </state>
     <state x="461" y="152" key="SettingsEditor/-1920.0.1536.813/1920.0.1920.1040/0.0.1920.1016@0.0.1920.1016" timestamp="1590013619346" />
     <state x="461" y="156" key="SettingsEditor/-1920.0.1536.832/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1591662802654" />
+    <state x="184" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591990668252">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="184" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1500.960@0.0.1500.960" timestamp="1591990668252" />
     <state x="733" y="381" width="612" height="282" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1590013444189">
       <screen x="0" y="0" width="1920" height="1016" />
     </state>
