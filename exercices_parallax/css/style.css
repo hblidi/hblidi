@@ -1,0 +1,55 @@
+/* exercice_jumbotron */
+/* par Hadia Blidi */
+/* Le 10-06-2020 */
+
+
+.parallax {
+    /* L’image du Parallax */
+    background-image: url("../image/Photo-paralax-dec-bac-informatique-02.jpg");
+    /* L’hauteur du Parallax */
+    min-height: 300px;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: 50% -40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.titre1{
+    padding-top: 40px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    background-color: rgba(255, 255, 255, 0.6);
+
+}
+.carreJaune{
+    font-size: 40px;
+    line-height: 40px;
+    font-family: 'Khand',sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    margin-top: 235px;
+    background-color: rgba(255,255,0,.75);
+
+}
+
+.info{
+    padding-top: 600px;
+}
+
+h1{
+    font-family: Ubuntu;
+    font-size: 18px;
+    color: #2c2c2c;
+    line-height: 1.4em;
+}
+h2{
+    font-size: 70px;
+    line-height: 70px;
+    font-family: 'Khand',sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
