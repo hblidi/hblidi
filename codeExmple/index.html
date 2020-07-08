@@ -1,6 +1,6 @@
-<!--exercice_jumbotron-->
+<!--exercice_formulaire-->
 <!--par Hadia Blidi-->
-<!--Le 10-06-2020-->
+<!--Le 17-06-2020-->
 <!DOCTYPE html>
 <html lang="fr-ca">
 <head>
@@ -9,90 +9,115 @@
     <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <title>Title</title>
+    <title> FormulaireEnvoye</title>
 </head>
 <body>
 
 
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">  Ouvrir le modal </button>
+
+<section>
+    <div class="container-fluid parallax2 h-100 zone1">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-12 font-weight-bold text-center pt-5">
+                    <h2 class="bienvenue font-weight-bold">
+                        <span>Bienvenue chez Rêve Optique Oasis </span>
+                        <span>Vos yeux, Notre priorité</span>
+                    </h2>
+                </div>
+            </div>
+            <div class="row bouton2">
+                <div class="col-xl-3" id="btn"><span class="noselect">prendre rendez vous</span><div id="circle"></div></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="jumbotron">
+        <h1 class="display-4">Hello, world!</h1>
+        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention
+            to featured content or information.</p>
+        <hr class="my-4">
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        </p>
+    </div>
+
+
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        Ouvrir le modal
+    </button>
+
+    <div class="modal" tabindex="-1" role="dialog" id="exampleModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Modal body text goes here.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Rèponce
+</button>
+
 <div class="modal" tabindex="-1" role="dialog" id="exampleModal">
     <div class="modal-dialog" role="document">
-    <div class="modal-content">
-
-
-
-
-        <div class="jumbotron">
-            <div class="container-fluid noir">
-                <div class="row">
-
-            <div class="col-lg-12 modal-header text-center">
-
-                <h5 class="modal-title">Soccer Calendrier</h5>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Modal title</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-                </div>
-        </div>
-
-
-            <img class="img-fluid" src="../jumbotron/image/download.png">
-
-            <h1 class="display-4"> Canada Soccer dévoile le calendrier du Championnat canadien 2020!</h1>
-            <div>
-            <ul>
-                <p class="lead">Phase de qualification 1 (17-24 juin 2020)
-
-                <li> Match 1 - FC Edmonton (CanPL) v Pacific FC (CanPL)</li>
-                <li>Match 2 - Valour FC (CanPL) v Forge FC (CanPL)</li>
-                <li>Match 3 - AS Blainville (PLSQ) v HFX Wanderers (CanPL)</li>
-                <li> Match 4 - Masters Futbol Academy (L10) v York9 FC (CanPL)</li>
-            </ul>
-
-            <ul>
-                <p class="lead">Phase des quarts de finale (8-15 juillet 2020)</p>
-
-                <li>Match 5 - Gagnant Match 1 v Vancouver Whitecaps FC (MLS)</li>
-                <li>Match 6 - Gagnant Match 2 v Cavarly FC (CanPL)</li>
-                <li>Match 7 - Gagnant Match 3 v Impact de Montréal (MLS)</li>
-                <li>Match 8 - Gagnant Match 4 v Toronto FC (MLS)</li>
-            </ul>
-
-            <ul>
-                <p class="lead">Phase de demi-finales (12-19 août 2020)</p>
-
-                <li>Match 9 - Gagnant Match 5 v Gagnant Match 6</li>
-                <li>Match 10 - Gagnant Match 8 v Gagnant Match 7</li>
-                <li>Phase finale (16-23 septembre 2020)</li>
-                <li>Match 11 – Gagnant Match 9 v Gagnant Match 10</li>
-
+            <div class="modal-body">
+                <p>Modal body text goes here.</p>
             </div>
-
-            <div class="image">
-                <img class="text-center img-fluid pt-5" src="../jumbotron/image/20190324_CanMNT_XI.jpg"/>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
             </div>
-
-            <hr class="my-4">
-
-            <p class="lead">
-                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>  </p>
         </div>
-
-
-
-
-        <div class="modal-footer">
-            <button type="button" class="btn btn-primary">Save changes</button>
-    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-
     </div>
 </div>
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
 
 <script src="https://kit.fontawesome.com/09b879714b.js" crossorigin="anonymous"></script>
 <script src="bootstrap-4.5.0-dist/js/bootstrap.js"></script>

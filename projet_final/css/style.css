@@ -1,0 +1,736 @@
+/* projet final */
+/* par Hadia Blidi */
+/* Le 19-06-2020 */
+
+
+
+
+
+.banniere{
+    background-image: url("../image/background2.jpg");
+    background-repeat: no-repeat;
+    background-color: #2b2b2b;
+    background-position: bottom center;
+    margin: auto;
+}
+
+
+
+
+.nouveauter{
+    background-color:white;
+    padding: 100px;
+
+}
+
+.parallax1 {
+    /* L’image du Parallax */
+    background-image: url("../image/desert-790640.jpg");
+    /* L’hauteur du Parallax */
+    min-height: 300px;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: 50% -40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.parallax2 {
+    /* L’image du Parallax */
+    background-image: url("../image/desert-695079.jpg");
+    /* L’hauteur du Parallax */
+    min-height: 300px;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h2{
+    font-family: Comfortaa;
+    font-size: 50px;
+    color: #3E63AB;
+}
+h1{
+    font-family: "Montserrat Thin";
+    font-size:50px;
+    color: #3E63AB;
+}
+hr{
+    background: #3E63AB;
+    height: 2px;
+    border-style: none;
+    margin: 2% 0
+}
+h4{
+    font-family: Comfortaa;
+    font-size: 1rem;
+    color: #a1afae;
+
+}
+h5{
+    font-family: Comfortaa;
+    color: black;
+    font-size: 2rem;
+    line-height: 1.5rem;
+    padding-top: 8rem;
+}
+h3{
+    font-family: Comfortaa;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+}
+h6{
+    font-family: Comfortaa;
+    font-size: 1rem;
+    color: black;
+    line-height: 1.5rem;
+}
+dl{
+    font-family: Comfortaa;
+    font-size: 12px;
+    margin: 2rem;
+    color: white;
+}
+p{
+    font-family: Comfortaa;
+    font-size: 18px;
+    margin: 1rem;
+    color: white;
+}
+
+.box{
+
+    margin: 2rem;
+}
+.flimfin{
+    padding-top: 5rem;
+}
+
+.logo{
+    width: 160px;
+    height: 60px;
+
+}
+.verreploalrise{
+    width: 980px;
+    height: 760px;
+
+
+}
+.nupolard{
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+
+
+}
+.imglunette{
+    height: 300px;
+    width: 450px;
+}
+.zone1{
+    padding-bottom: 4rem;
+}
+.sousmenuH{
+    margin-left: -2rem;
+}
+
+.fa{
+    color: white;
+    font-size: 39px;
+}
+.fas{
+    color:white;
+    font-size: 38px;
+}
+.eye{
+    width: 500px;
+    height: 450px;
+}
+
+.services{
+    padding-left: 3rem;
+    margin-bottom: 7rem;
+    padding-top: 8rem;
+}
+.icon{
+    margin-top: 6rem;
+    padding-left: 11rem;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+.textcarousel{
+    font-size: 65px;
+    font-family: "Montserrat";
+    color: #3E63AB;
+}
+.witcherbanniere{
+    background-color: #1f1c17;
+    position: fixed;
+    z-index: 2;
+}
+
+/*image nouvelle géneration*/
+.verreploalrise{
+    width: 550px;
+    height: 400px;
+    margin-bottom: 8rem;
+}
+/*zon1 image hover*/
+.blok{
+    padding-top: 5rem;
+    width: 100%;
+}
+.blok1 {
+    position: relative;
+    width: 100%;
+   margin-left: 7rem;
+
+}
+
+.imageblok1 {
+    display: block;
+    width: 100%;
+    height: 500px;
+    height: auto;
+
+}
+
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #3E63AB;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .7s ease;
+
+
+}
+
+.blok1:hover .overlay {
+    bottom: 0;
+    height: 100%;
+    opacity: .7;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*boutton*/
+
+
+
+.btn {
+    cursor: pointer;
+    position: relative;
+    padding: 10px 20px;
+    font-size: 28px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition: all 1s;
+    font-family: Comfortaa;
+    color: white;
+
+
+
+}
+.btn:after, .btn:before {
+    content: " ";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border: 0px solid #fff;
+    transition: all 1s;
+
+}
+.btn:after {
+    top: -1px;
+    left: -1px;
+    border-top: 5px solid white;
+    border-left: 5px solid white;
+}
+.btn:before {
+    bottom: -1px;
+    right: -1px;
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+}
+.btn:hover {
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.btn:hover:before, .btn:hover:after {
+    width: 100%;
+    height: 100%;
+}
+
+.data-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7rem;
+    padding-bottom: 10rem;
+    margin-left: 10rem;
+}
+
+
+
+/*image*/
+.hover14 figure {
+    position: relative;
+}
+.hover14 figure::before {
+    position: absolute;
+    top: 0;
+    left: -75%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+    background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+    -webkit-transform: skewX(-25deg);
+    transform: skewX(-25deg);
+}
+.hover14 figure:hover::before {
+    -webkit-animation: shine .75s;
+    animation: shine .75s;
+}
+@-webkit-keyframes shine {
+    100% {
+        left: 125%;
+    }
+}
+@keyframes shine {
+    100% {
+        left: 125%;
+    }
+}
+
+
+
+
+/*Titre*/
+/* Chrome, Safari, Opera */
+@-webkit-keyframes drawBorderFromCenter {
+    0% {
+        background-size: 0 2px, 0 0, 100% 100%;
+    }
+    20% {
+        background-size: 100% 2px, 100% 0, 100% 100%;
+    }
+    66%
+    {
+        background-size: 100% 2px, 100% 98%, 100% 100%;
+    }
+    99%
+    {
+        background-size: 100% 2px, 100% 98%, 0 2px;
+    }
+}
+
+
+
+.content
+{
+    background: white;
+    padding: 2em;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+
+
+Resources
+
+
+
+
+.witcherbanniere {
+
+
+}
+
+
+
+.text{
+    display:inline-block;
+    overflow:hidden;
+    white-space:nowrap;
+    font-family: "Montserrat Thin";
+    font-size: 5rem;
+    color: #3E63AB;
+}
+
+.text:first-of-type {    /* For increasing performance
+                       ID/Class should've been used.
+                       For a small demo
+                       it's okaish for now */
+    animation: showup 7s infinite;
+}
+
+.text:last-of-type {
+    width:0px;
+    animation: reveal 7s infinite;
+}
+
+.text:last-of-type span {
+    margin-left:-355px;
+    animation: slidein 7s infinite;
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:355px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:500px;}
+}
+.titre{
+    font-size: 3rem;
+    color: white;
+}
+.titreanimer{
+    padding: 6rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* NAVbar */
+
+/* Top and Bottom borders go out */
+
+
+div.teal a{
+    color: #FFF;
+    text-decoration: none;
+    font: 20px Raleway;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+    font-family: Comfortaa;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+div.topBotomBordersOut .menu:before, div.topBotomBordersOut .menu:after
+{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: #FFF;
+    content: "";
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+div.topBotomBordersOut .menu:before
+{
+    top: 0px;
+    transform: translateY(10px);
+}
+
+div.topBotomBordersOut .menu:after
+{
+    bottom: 0px;
+    transform: translateY(-10px);
+}
+
+div.topBotomBordersOut .menu:hover:before, div.topBotomBordersOut .menu:hover:after
+{
+    opacity: 1;
+    transform: translateY(0px);
+
+}
+
+/* Top and Bottom borders come in */
+div.topBotomBordersIn .menu:before, div.topBotomBordersIn .menu:after
+{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: #FFF;
+    content: "";
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+div.topBotomBordersIn .menu:before
+{
+    top: 0px;
+    transform: translateY(-10px);
+}
+
+div.topBotomBordersIn .menu:after
+{
+    bottom: 0px;
+    transform: translateY(10px);
+}
+
+div.topBotomBordersIn .menu:hover:before, div.topBotomBordersIn .menu:hover:after
+{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+/* Top border go down and Left border appears */
+div.topLeftBorders .menu:before
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 2px;
+    height: 0px;
+    background: #FFF;
+    content: "";
+    opacity: 1;
+    transition: all 0.3s;
+}
+
+div.topLeftBorders .menu:after
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: #FFF;
+    content: "";
+    opacity: 1;
+    transition: all 0.3s;
+}
+
+div.topLeftBorders .menu:hover:before
+{
+    height: 100%;
+}
+
+div.topLeftBorders .menu:hover:after
+{
+    opacity: 0;
+    top: 100%;
+}
+.teal{
+    padding: 2rem;
+
+}
+
+div.borderYtoX .menu:before, div.borderYtoX .menu:after
+{
+    position: absolute;
+    opacity: 0.5;
+    height: 100%;
+    width: 2px;
+    content: '';
+    background: #FFF;
+    transition: all 0.3s;
+}
+
+div.borderYtoX .menu:before
+{
+    left: 0px;
+    top: 0px;
+}
+
+div.borderYtoX .menu:after
+{
+    right: 0px;
+    bottom: 0px;
+}
+
+div.borderYtoX .menu:hover:before, div.borderYtoX .menu:hover:after
+{
+    opacity: 1;
+    height: 2px;
+    width: 100%;
+
+}
+ul{
+    list-style: none;
+}
+ul li {
+    float: left;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+ul li ul li {
+    display: none;
+    position: center;
+}
+ul li:hover ul li {
+    display: block;
+}
+
+ul li a:hover{
+    color: #3a4972;
+}
+
+/* Basic styles */
+
+
+
+
+
+
+
+/*bouton2*/
+
+.bouton2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn {
+    background: white;
+    height: 50px;
+    min-width: 150px;
+    border: none;
+    border-radius: 10px;
+    color:black;
+    font-size: 30px;
+    font-family: "Montserrat Thin";
+    position: relative;
+    transition: 1s;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+#btn #circle {
+    width: 5px;
+    height: 5px;
+    background: transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    overflow: hidden;
+    transition: 500ms;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#btn:hover {
+    background: transparent;
+}
+
+#btn:hover #circle {
+    height: 50px;
+    width: 380px;
+    left: 0;
+    border-radius: 0;
+    border-bottom: 2px solid #eee;
+}
+
+
+/**bouton test*/
+#btntest{
+    background: #3E63AB;
+    height: 50px;
+    min-width: 150px;
+    border: none;
+    border-radius: 10px;
+    color:black;
+    font-size: 30px;
+    font-family: "Montserrat Thin";
+    position: relative;
+    transition: 1s;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+#btntest #circle {
+    width: 5px;
+    height: 5px;
+    background: transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    overflow: hidden;
+    transition: 500ms;
+}
+#btntest:hover {
+    background: transparent;
+}
+
+#btntest:hover #circle {
+    height: 50px;
+    width: 280px;
+    left: 0;
+    border-radius: 0;
+    border-bottom: 2px solid black;
+}
+
+/** footer**/
+footer{
+    background-color: #2b2b2b;
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+}
