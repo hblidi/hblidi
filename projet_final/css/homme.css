@@ -2,6 +2,17 @@
 /* par Hadia Blidi */
 /* Le 19-06-2020 */
 
+@font-face{
+    src: url("../fonts/Montserrat-thin.ttf");
+    font-family: Montserrat-Thin;
+
+}
+
+@font-face{
+    src: url("../fonts/static/Comfortaa-Medium.ttf");
+    font-family: Comfortaa;
+
+}
 
 .banniere{
     background-image: url("../image/homme01.jpg");
@@ -29,14 +40,14 @@ img{
 
 }
 h1{
-    font-family: "Montserrat Thin";
+    font-family: Montserrat-Thin;
     font-size: 9rem;
     color: #3E63AB;
 
 
 }
 h2{
-    font-family: "Montserrat Thin";
+    font-family: Montserrat-Thin;
     font-size: 3rem;
     color: #d3d9df;
     padding-top: 16rem;

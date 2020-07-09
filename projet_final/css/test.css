@@ -1,6 +1,19 @@
 /* projet final */
 /* par Hadia Blidi */
 /* Le 19-06-2020 */
+
+@font-face{
+    src: url("../fonts/Montserrat-thin.ttf");
+    font-family: Montserrat-Thin;
+
+}
+
+@font-face{
+    src: url("../fonts/static/Comfortaa-Medium.ttf");
+    font-family: Comfortaa;
+
+}
+
 h1{
     font-family: Comfortaa;
     font-size: 30px;
@@ -30,7 +43,7 @@ h2{
     border-radius: 10px;
     color:black;
     font-size: 30px;
-    font-family: "Montserrat Thin";
+    font-family: Montserrat-Thin;
     position: relative;
     transition: 1s;
     -webkit-tap-highlight-color: transparent;

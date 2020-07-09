@@ -15,12 +15,6 @@
 }
 
 
-
-
-
-
-
-
 .banniere{
     background-image: url("../image/background2.jpg");
     background-repeat: no-repeat;
@@ -66,7 +60,7 @@ h2{
     color: #3E63AB;
 }
 h1{
-    font-family: "Montserrat Thin";
+    font-family: Montserrat-Thin;
     font-size:50px;
     color: #3E63AB;
 }
@@ -179,7 +173,7 @@ p{
 }
 .textcarousel{
     font-size: 65px;
-    font-family: "Montserrat";
+    font-family: Montserrat-Thin;
     color: #3E63AB;
 }
 .menulunette{
@@ -231,15 +225,6 @@ text-align: center;
     opacity: .8;
 
 }
-
-
-
-
-
-
-
-
-
 
 
 /*boutton*/
@@ -374,10 +359,7 @@ Resources
 
 
 
-.witcherbanniere {
 
-
-}
 
 
 
@@ -385,7 +367,7 @@ Resources
     display:inline-block;
     overflow:hidden;
     white-space:nowrap;
-    font-family: "Montserrat Thin";
+    font-family: Montserrat-Thin;
     font-size: 5rem;
     color: #3E63AB;
 }
@@ -650,7 +632,7 @@ ul li a:hover{
     border-radius: 10px;
     color:black;
     font-size: 30px;
-    font-family: "Montserrat Thin";
+    font-family: Montserrat-Thin;
     position: relative;
     transition: 1s;
     -webkit-tap-highlight-color: transparent;
@@ -704,7 +686,7 @@ ul li a:hover{
     border-radius: 10px;
     color:black;
     font-size: 30px;
-    font-family: "Montserrat Thin";
+    font-family: Montserrat-Thin;
     position: relative;
     transition: 1s;
     -webkit-tap-highlight-color: transparent;
