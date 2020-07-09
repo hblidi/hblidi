@@ -187,8 +187,8 @@ p{
 /*zon1 image hover*/
 
 .blok1 {
+text-align: center;
 
-    margin-left: 7rem;
 
 
 }
@@ -196,7 +196,7 @@ p{
 .imageblok1 {
 
     width: 462px;
-    height: 487px;
+    height: 490px;
 
 
 }
@@ -208,7 +208,7 @@ p{
     right: 0;
     background-color: #0d293e;
     overflow: hidden;
-    width: 100%;
+    width: 477px;
     height:0;
     transition: .7s ease;
 
@@ -217,8 +217,9 @@ p{
 
 .blok1:hover .overlay {
     bottom: 0;
-    height: 100%;
+    height: 490px;
     opacity: .8;
+
 }
 
 
