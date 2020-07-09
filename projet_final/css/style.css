@@ -3,10 +3,20 @@
 /* Le 19-06-2020 */
 
 @font-face{
-    src: url("../fonts/Montserrat-thin.ttf"); src: url("../fonts/static/Comfortaa-Medium.ttf");
-    font-family: Comfortaa, "Montserrat Thin";
+    src: url("../fonts/Montserrat-thin.ttf");
+    font-family: "Montserrat Thin";
 
 }
+
+@font-face{
+    src: url("../fonts/static/Comfortaa-Medium.ttf");
+    font-family: Comfortaa;
+
+}
+
+
+
+
 
 
 
