@@ -13,6 +13,10 @@
     font-family: Comfortaa;
 
 }
+@font-face {
+    src: url("../fonts/HennyPenny-Regular");
+    font-family: HennyPenny-Regular;
+}
 
 .banniere{
     background-image: url("../image/enfants.jpg");
@@ -51,16 +55,17 @@ h1{
 h2{
     font-family: Montserrat-Thin;
     font-size: 3rem;
-    color: #d3d9df;
+    color: black;
     padding-top: 25rem;
     padding-left: 3rem;
 
 }
 h3{
-    font-family: Comfortaa;
+    font-family: HennyPenny;
     font-size: 3rem;
     color:#3E63AB;
     padding-top: 6rem;
+    text-align: center;
 }
 h4{
     font-family: Montserrat-Thin;
@@ -74,16 +79,17 @@ p{
     color: white;
 
 }
+h5{
+    font-family: Montserrat-Thin;
+    font-size: 3rem;
+    color: #3E63AB;
+}
 .fa{
     color: white;
     font-size: 39px;
 }
-.nouvelle{
-    font-size: 5rem;
-}
-.nouveaux{
-    padding-top: 8rem;
-}
+
+
 .blokbleu{
     background-color: #2c3242;
 }
@@ -92,6 +98,7 @@ p{
     font-size: 2rem;
     font-family: Montserrat-Thin;
     padding-top: 0;
+    color: white;
 }
 
 

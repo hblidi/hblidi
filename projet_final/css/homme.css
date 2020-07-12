@@ -56,7 +56,7 @@ h2{
     padding-left: 3rem;
 }
 h3{
-    font-family: Comfortaa;
+    font-family: Montserrat-Thin;
     font-size: 3rem;
     color:#3E63AB;
     padding-top: 6rem;
@@ -65,6 +65,13 @@ h4{
     font-family: Montserrat-Thin;
     font-size: 3rem;
     color: #3E63AB;
+}
+h5{
+    font-family: Comfortaa;
+    color: black;
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
 }
 p{
     font-family: Comfortaa;
@@ -79,12 +86,14 @@ p{
 }
 .nouvelle{
     font-size: 5rem;
+    padding-top: 3rem;
 }
 .nouveaux{
     padding-top: 8rem;
 }
 .blokbleu{
     background-color: #2c3242;
+    padding-top: 5rem;
 }
 .joindre{
     word-spacing: 9.5em;
@@ -93,8 +102,15 @@ p{
     padding-top: 0;
 }
 
-
-
+.imagezoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.imagezoom{
+    padding-top: 5rem;
+    padding-bottom: 7rem;
+}
 
 
 
