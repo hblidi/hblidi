@@ -3,7 +3,7 @@
 /* Le 19-06-2020 */
 
 @font-face{
-    src: url("../fonts/Montserrat-thin.ttf");
+    src: url("../fonts/Montserrat-Thin.ttf");
     font-family: Montserrat-Thin;
 
 }
@@ -13,6 +13,11 @@
     font-family: Comfortaa;
 
 }
+@font-face {
+    src: url("../fonts/AbrilFatface-Regular");
+    font-family: AbrilFatface-Regular;
+}
+
 
 .banniere{
     background-image: url("../image/homme01.jpg");
