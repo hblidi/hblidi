@@ -12,190 +12,82 @@
     <title> FormulaireEnvoye</title>
 </head>
 <body>
+<div class="Menu" style="--hue: 78.58093004893483">
+    <input class="Menu__toggle" id="Menu-toggle" type="checkbox"/>
+    <label class="Menu__toggle-label" for="Menu-toggle"></label>
+    <label class="Menu__toggle-label Menu__toggle-label--closer" for="Menu-toggle">
+        <svg class="Menu__icon" preserveAspectRatio="xMinYMin" viewBox="0 0 24 24">
+            <path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z"></path>
+        </svg>
+        <svg class="Menu__icon" preserveAspectRatio="xMinYMin" viewBox="0 0 24 24">
+            <path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z"></path>
+        </svg>
+    </label>
+    <ul class="Menu__content">
+        <li class="Menu__item" style="--x: 29; --y: 17;"><a class="Menu__link" href="#HOME">HOME</a></li>
+        <li class="Menu__item" style="--x: 73; --y: 33;"><a class="Menu__link" href="#ABOUT">POUR HOMME</a></li>
+        <li class="Menu__item" style="--x: 28; --y: 59;"><a class="Menu__link" href="#CONTACT">POUR FEMME</a></li>
+        <li class="Menu__item" style="--x: 67; --y: 62;"><a class="Menu__link" href="#WORK">POUR ENFANTS</a></li>
+    </ul>
+</div>
+<svg style="position: absolute; left: 100%">
+    <defs>
+        <filter id="goo">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="15" result="BLUR"></feGaussianBlur>
+            <feColorMatrix in="BLUR" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="GOO"></feColorMatrix>
+            <feBlend in="SourceGraphic" in2="goo"></feBlend>
+        </filter>
+    </defs>
+</svg>
 <header>
 
-    <div class="container-fluid menulunette">
-        <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            <div class="row teal borderYtoX">
-                    <div class="col-xl-2 col-lg-12 col-md-12">
-                        <a href="index.html"><img src="image/logoAbdou3.png" class="logo" alt="logo"/></a>
-                    </div>
-                <div class="col-xl-10">
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul id="menu-deroulant">
-                        <li><a class="menu text-capitalize" href="index.html">accueil</a></li>
-                        <li><a class="menu text-capitalize" href="homme.html">Pour Homme</a>
-                            <div class="sousmenuH subnav-content">
-                                <ul>
-                                    <li><a href="#" class="sousmenu">Mattblack</a><img src="image/lunetteHomme/haggar_hac101_chocolate_1_1.jpg" alt="" class="imagemenu"></li>
-                                    <li><a href="#" class="sousmenu">Solander</a></li>
-                                    <li><a href="#" class="sousmenu">Polar</a></li>
-                                </ul>
-                            </div>
-                        </li>
+<div class="container-fluid menulunette d-none d-sm-none d-md-none d-lg-block d-xl-block">
+  <div class="row teal borderYtoX">
 
-                        <li><a class="menu text-capitalize">Pour Femme</a>
-                            <div class="sousmenuH">
-                                <ul>
-                                    <li><a href="#" class="sousmenu">lien sous menu 1</a></li>
-                                    <li><a href="#" class="sousmenu">lien sous menu 1</a></li>
-                                    <li><a href="#" class="sousmenu">lien sous menu 1</a></li>
-                                    <li><a href="#" class="sousmenu">lien sous menu 1</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li><a class="menu text-capitalize" href="enfants.html">Pour Enfants</a>
-                                <ul>
-                                    <li><a href="#" class="sousmenu">lien sous menu 1</a></li>
-                                    <li><a href="#" class="sousmenu">lien sous menu 1</a></li>
-                                    <li><a href="#" class="sousmenu">lien sous menu 1</a></li>
-                                    <li><a href="#" class="sousmenu">lien sous menu 1</a></li>
-                                </ul>
-                        </li>
-                        <li><a class="menu text-capitalize">Contact</a></li>
-                    </ul>
+      <a class="navbar-brand" href="#">Logo</a>
+      <nav class="navbar navbar-expand-lg  ml-auto">
+
+
+        <div class="collapse navbar-collapse ml-auto" id="navbarNav">
+            <ul id="menu-deroulant">
+                <li><a class="menu text-capitalize" href="index.html">accueil</a></li>
+                <li><a class="menu text-capitalize" href="homme.html">Pour Homme</a>
+                    <div class="sousmenuH subnav-content">
+                        <ul>
+                            <li><a href="#" class="sousmenu">Mattblack</a><img src="image/lunetteHomme/haggar_hac101_chocolate_1_1.jpg" alt="" class="imagemenu"></li>
+                            <li><a href="#" class="sousmenu">Solander</a></li>
+                            <li><a href="#" class="sousmenu">Polar</a></li>
+                        </ul>
                     </div>
-                </div>
-            </div>
-            </nav>
+                </li>
+
+                <li><a class="menu text-capitalize">Pour Femme</a>
+                    <div class="sousmenuH">
+                        <ul>
+                            <li><a href="#" class="sousmenu">lien sous menu 1</a></li>
+                            <li><a href="#" class="sousmenu">lien sous menu 1</a></li>
+                            <li><a href="#" class="sousmenu">lien sous menu 1</a></li>
+                            <li><a href="#" class="sousmenu">lien sous menu 1</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a class="menu text-capitalize" href="enfants.html">Pour Enfants</a>
+                    <div class="sousmenuH">
+                        <ul>
+                            <li><a href="#" class="sousmenu">lien sous menu 1</a></li>
+                            <li><a href="#" class="sousmenu">lien sous menu 1</a></li>
+                            <li><a href="#" class="sousmenu">lien sous menu 1</a></li>
+                            <li><a href="#" class="sousmenu">lien sous menu 1</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a class="menu text-capitalize">Contact</a></li>
+            </ul>
         </div>
-    </div>
+    </nav>
+  </div>
+</div>
 </header>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section>
-    <div class="container-fluid parallax2 h-100 zone1">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xl-12 font-weight-bold text-center pt-5">
-                    <h2 class="bienvenue font-weight-bold">
-                        <span>Bienvenue chez Rêve Optique Oasis </span>
-                        <span>Vos yeux, Notre priorité</span>
-                    </h2>
-                </div>
-            </div>
-            <div class="row bouton2">
-                <div class="col-xl-3" id="btn"><span class="noselect">prendre rendez vous</span><div id="circle"></div></div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="jumbotron">
-        <h1 class="display-4">Hello, world!</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention
-            to featured content or information.</p>
-        <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <p class="lead">
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-        </p>
-    </div>
-
-
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-        Ouvrir le modal
-    </button>
-
-    <div class="modal" tabindex="-1" role="dialog" id="exampleModal">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Modal title</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <p>Modal body text goes here.</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-    Rèponce
-</button>
-
-<div class="modal" tabindex="-1" role="dialog" id="exampleModal">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">Modal title</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <p>Modal body text goes here.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-primary">Save changes</button>
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-
-
-
-<div>Escape</div>
-<div>
-    <span>into amazing experiences</span>
-</div>
-
-<p>a css3 animation demo</p>
-
-
-
 
 
 

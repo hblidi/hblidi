@@ -1,10 +1,13 @@
+
+
+
 /* NAVbar */
 
 /* Top and Bottom borders go out */
 
 
 div.teal a{
-    color: #0e0a0a;
+    color: #fdfdfd;
     text-decoration: none;
     font: 20px Raleway;
     margin: 0px 10px;
@@ -24,7 +27,7 @@ div.topBotomBordersOut .menu:before, div.topBotomBordersOut .menu:after
     left: 0px;
     width: 100%;
     height: 2px;
-    background: #0a0808;
+    background: #fcfcfc;
     content: "";
     opacity: 0;
     transition: all 0.3s;
@@ -56,7 +59,7 @@ div.topBotomBordersIn .menu:before, div.topBotomBordersIn .menu:after
     left: 0px;
     width: 100%;
     height: 2px;
-    background: #100b0b;
+    background: #f8f8f8;
     content: "";
     opacity: 0;
     transition: all 0.3s;
@@ -88,7 +91,7 @@ div.topLeftBorders .menu:before
     left: 0px;
     width: 2px;
     height: 0px;
-    background: #100d0d;
+    background: #ffffff;
     content: "";
     opacity: 1;
     transition: all 0.3s;
@@ -101,7 +104,7 @@ div.topLeftBorders .menu:after
     left: 0px;
     width: 100%;
     height: 2px;
-    background: #100c0c;
+    background: #ffffff;
     content: "";
     opacity: 1;
     transition: all 0.3s;
@@ -129,7 +132,7 @@ div.borderYtoX .menu:before, div.borderYtoX .menu:after
     height: 100%;
     width: 2px;
     content: '';
-    background: #020202;
+    background: #ffffff;
     transition: all 0.3s;
 }
 
@@ -187,3 +190,203 @@ ul li:hover ul li {
 ul li a:hover{
     color: #3a4972;
 }
+
+body{
+    background: #0a0a6a;
+}
+.menulunette{
+    background-color: #1f1c17;
+    position: fixed;
+    z-index: 999;
+}
+
+
+
+
+
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css?family=Alata&display=swap");
+* {
+    box-sizing: border-box;
+}
+:root {
+    --speed: 0.85;
+    --primary: #fff;
+    --size: 30;
+    --ease: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+main {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    -ms-scroll-snap-type: y mandatory;
+    scroll-snap-type: y mandatory;
+}
+section {
+    -webkit-box-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: flex;
+    font-size: 3rem;
+    height: 100vh;
+    -webkit-box-pack: center;
+    justify-content: center;
+    scroll-snap-align: center;
+    width: 100vw;
+}
+.Menu {
+    position: fixed;
+}
+.Menu__toggle {
+    opacity: 0;
+    position: absolute;
+}
+.Menu__toggle:checked ~ .Menu__content .Menu__item {
+    --active-x: var(--x);
+    --active-y: var(--y);
+    --scale: 1;
+}
+.Menu__toggle:checked ~ .Menu__toggle-label:not(.Menu__toggle-label--closer) {
+    --clip: circle(1000% at 0% 0%);
+    height: 100vh;
+    width: 100vw;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+.Menu__toggle:checked ~ .Menu__toggle-label .Menu__icon:nth-of-type(1) {
+    --scale: 0;
+}
+.Menu__toggle:checked ~ .Menu__toggle-label .Menu__icon:nth-of-type(2) {
+    --scale: 1;
+}
+.Menu__toggle-label {
+    cursor: pointer;
+    height: calc(var(--size, 20) * 0.5vmin);
+    width: calc(var(--size, 20) * 0.5vmin);
+    display: block;
+    --clip: circle(100% at 0% 0%);
+    -webkit-clip-path: var(--clip);
+    clip-path: var(--clip);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: backdrop-filter calc(var(--speed, 1) * 1s) var(--ease), clip-path 0s, -webkit-clip-path 0s;
+}
+.Menu__toggle-label--closer {
+    z-index: 3;
+    --scale: 0;
+}
+.Menu__icon {
+    --scale: 1;
+    height: calc(var(--size, 20) * 0.25vmin);
+    width: calc(var(--size, 20) * 0.25vmin);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-70%, -70%) scale(var(--scale, 1));
+    transform: translate(-70%, -70%) scale(var(--scale, 1));
+    fill: var(--primary);
+    -webkit-transition: all calc(var(--speed, 1) * 1s) var(--ease);
+    transition: all calc(var(--speed, 1) * 1s) var(--ease);
+}
+.Menu__icon:nth-of-type(2) {
+    --scale: 0;
+}
+.Menu__content {
+    background: hsl(var(--hue, 0), 50%, 50%);
+    margin: 0;
+    display: block;
+    list-style-type: none;
+    z-index: -1;
+    -webkit-filter: url("#goo");
+    filter: url("#goo");
+    position: absolute;
+    top: 0;
+    height: 0;
+    width: 0;
+    left: 0;
+    z-index: 2;
+}
+.Menu__content:after {
+    background: hsl(var(--hue, 0), 50%, 50%);
+    content: '';
+    border-radius: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    height: calc(var(--size, 20) * 1vmin);
+    width: calc(var(--size, 20) * 1vmin);
+    top: 0;
+    left: 0;
+}
+.Menu__item {
+    background: hsl(var(--hue, 0), 50%, 50%);
+    border-radius: 50%;
+    cursor: pointer;
+    display: -webkit-box;
+    display: flex;
+    list-style-type: none;
+    font-size: 1rem;
+    height: calc(var(--size, 20) * 1vmin);
+    left: calc(var(--active-x, 0) * 1vw);
+    overflow: hidden;
+    place-items: center;
+    position: absolute;
+    text-align: center;
+    top: calc(var(--active-y, 0) * 1vh);
+    -webkit-transform: translate(-50%, -50%) scale(var(--scale, 0.75));
+    transform: translate(-50%, -50%) scale(var(--scale, 0.75));
+    -webkit-transition: all calc(var(--speed, 1) * 1s) calc(var(--delay, 0) * 1s) var(--ease);
+    transition: all calc(var(--speed, 1) * 1s) calc(var(--delay, 0) * 1s) var(--ease);
+    width: calc(var(--size, 20) * 1vmin);
+}
+@media (min-width: 768px) {
+    .Menu__item {
+        font-size: 3rem;
+    }
+}
+.Menu__item:nth-of-type(1) {
+    --delay: 0.1;
+    --x: 35;
+    --y: 35;
+}
+.Menu__item:nth-of-type(2) {
+    --delay: 0.2;
+    --x: 65;
+    --y: 35;
+}
+.Menu__item:nth-of-type(3) {
+    --delay: 0.3;
+    --x: 35;
+    --y: 65;
+}
+.Menu__item:nth-of-type(4) {
+    --delay: 0.4;
+    --x: 65;
+    --y: 65;
+}
+.Menu__link {
+    -webkit-box-align: center;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.Menu__link:hover {
+    text-decoration: underline;
+}
+
+

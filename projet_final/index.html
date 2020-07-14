@@ -14,87 +14,111 @@
 
 </head>
 <body>
-
-
-
 <header>
-<div class="container-fluid menulunette">
-   <div class="row teal borderYtoX">
-                        <div class="col-xl-2 col-lg-12 col-md-12">
-                            <a href="index.html"><img src="image/logoAbdou3.png" class="logo" alt="logo"/></a>
-                        </div>
-                    <div class="col-xl-10 col-lg-10 col-md-10 ">
-                                  <ul id="menu-deroulant">
-                                    <li><a class="menu text-capitalize" href="index.html">accueil</a></li>
-                                    <li><a class="menu text-capitalize" href="homme.html">Pour Homme</a>
-                                        <div class="sousmenuH subnav-content">
-                                                <ul>
-                                                    <li><a href="#" class="sousmenu">Mattblack</a><img src="image/lunetteHomme/haggar_hac101_chocolate_1_1.jpg" alt="" class="imagemenu"></li>
-                                                    <li><a href="#" class="sousmenu">Solander</a></li>
-                                                    <li><a href="#" class="sousmenu">Polar</a></li>
-                                                </ul>
-                                        </div>
-                                    </li>
+    <div class="d-block d-sm-block d-md-block d-lg-block d-xl-none">
+            <div class="Menu" style="--hue: 78.58093004893483">
+                <input class="Menu__toggle" id="Menu-toggle" type="checkbox"/>
+                <label class="Menu__toggle-label" for="Menu-toggle"></label>
+                <label class="Menu__toggle-label Menu__toggle-label--closer" for="Menu-toggle">
+                    <svg class="Menu__icon" preserveAspectRatio="xMinYMin" viewBox="0 0 24 24">
+                        <path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z"></path>
+                    </svg>
+                    <svg class="Menu__icon" preserveAspectRatio="xMinYMin" viewBox="0 0 24 24">
+                        <path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z"></path>
+                    </svg>
+                </label>
+                <ul class="Menu__content">
+                    <li class="Menu__item" style="--x: 29; --y: 17;"><a class="Menu__link" href="index.html">HOME</a></li>
+                    <li class="Menu__item" style="--x: 73; --y: 33;"><a class="Menu__link" href="homme.html">POUR HOMME</a></li>
+                    <li class="Menu__item" style="--x: 28; --y: 59;"><a class="Menu__link" href="">POUR FEMME</a></li>
+                    <li class="Menu__item" style="--x: 67; --y: 62;"><a class="Menu__link" href="enfants.html">POUR ENFANTS</a></li>
+                </ul>
+            </div>
+    </div>
 
-                                    <li><a class="menu text-capitalize">Pour Femme</a>
-                                        <div class="sousmenuH">
-                                        <ul>
-                                            <li><a href="#" class="sousmenu">lien sous menu 1</a></li>
-                                            <li><a href="#" class="sousmenu">lien sous menu 1</a></li>
-                                            <li><a href="#" class="sousmenu">lien sous menu 1</a></li>
-                                            <li><a href="#" class="sousmenu">lien sous menu 1</a></li>
-                                        </ul>
-                                        </div>
-                                    </li>
-                                    <li><a class="menu text-capitalize" href="enfants.html">Pour Enfants</a>
-                                        <div class="sousmenuH">
-                                        <ul>
-                                            <li><a href="#" class="sousmenu">lien sous menu 1</a></li>
-                                            <li><a href="#" class="sousmenu">lien sous menu 1</a></li>
-                                            <li><a href="#" class="sousmenu">lien sous menu 1</a></li>
-                                            <li><a href="#" class="sousmenu">lien sous menu 1</a></li>
-                                        </ul>
-                                        </div>
-                                    </li>
-                                    <li><a class="menu text-capitalize">Contact</a></li>
-                                  </ul>
-                    </div>
-   </div>
-</div>
+    <div class="container-fluid menulunette d-none d-sm-none d-md-none d-lg-block d-xl-block">
+        <div class="row teal borderYtoX">
+
+            <a class="navbar-brand" href="#"><img src="image/logoAbdou3.png" class="logo"></a>
+            <nav class="navbar navbar-expand-lg  ml-auto">
+
+
+                <div class="collapse navbar-collapse ml-auto" id="navbarNav">
+                    <ul id="menu-deroulant">
+                        <li><a class="menu text-capitalize" href="index.html">accueil</a></li>
+                        <li><a class="menu text-capitalize" href="homme.html">Pour Homme</a>
+                            <div class="sousmenuH subnav-content">
+                                <ul>
+                                    <li><a href="#" class="sousmenu">Mattblack</a><img src="image/lunetteHomme/haggar_hac101_chocolate_1_1.jpg" alt="" class="imagemenu"></li>
+                                    <li><a href="#" class="sousmenu">Solander</a></li>
+                                    <li><a href="#" class="sousmenu">Polar</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li><a class="menu text-capitalize">Pour Femme</a>
+                            <div class="sousmenuH">
+                                <ul>
+                                    <li><a href="#" class="sousmenu">lien sous menu 1</a></li>
+                                    <li><a href="#" class="sousmenu">lien sous menu 1</a></li>
+                                    <li><a href="#" class="sousmenu">lien sous menu 1</a></li>
+                                    <li><a href="#" class="sousmenu">lien sous menu 1</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a class="menu text-capitalize" href="enfants.html">Pour Enfants</a>
+                            <div class="sousmenuH">
+                                <ul>
+                                    <li><a href="#" class="sousmenu">lien sous menu 1</a></li>
+                                    <li><a href="#" class="sousmenu">lien sous menu 1</a></li>
+                                    <li><a href="#" class="sousmenu">lien sous menu 1</a></li>
+                                    <li><a href="#" class="sousmenu">lien sous menu 1</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a class="menu text-capitalize">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
 </header>
 
-<section class="banniere">
 
-    <div class="container">
-        <div class="row titreanimer">
-            <div class="col-xl-12 text-capitalize"><div class="text font-weight-bold">Rêve</div>
-                <div class="text">
-                    <span class="titre">Optique Oasis</span>
+
+
+<section class="banniere">
+    <div class="container d-block d-sm-block d-md-block d-lg-none d-xl-none">
+        <div class="row">
+            <div class="col-sm-12 col-md-12"><h3 class="titrecellulaire">Rêve Optique Oasis</h3></div>
+            <div class="col-sm-12 col-md-12 col-md-12 col-sm-12 text-center">
+                <div class="data-container">
+                    <span class="btn text-capitalize">prendre rendez vous</span>
                 </div>
             </div>
+
         </div>
     </div>
-    </div>
-
 
     <div class="container">
-        <div class="row">
-            <div class="col-xl-10 text-justify no-gutters">
-                <hr><p class="display-5">Rêve optique OASIS, vous presente une très jolie Collection
-                Mattblack et Solander pour Hommes et Femmes a un prix exceptionnel !</p>
+        <div class="row titreanimer d-none d-sm-none d-md-none d-lg-block d-xl-block ">
+                <div class="col-xl-12 col-lg-12 col-md-12 pt-5 text-capitalize"><div class="text font-weight-bold">Rêve</div>
+                    <div class="text">
+                        <span class="titre">Optique Oasis</span>
+                    </div>
+                </div>
+
+                <div class="col-xl-10 text-justify no-gutters">
+                    <hr><p class="display-5">Rêve optique OASIS, vous presente une très jolie Collection
+                    Mattblack et Solander pour Hommes et Femmes a un prix exceptionnel !</p>
+                </div>
+
+            <div class="col-xl-5 col-lg-12 col-md-12 col-sm-12 text-center">
+                <div class="data-container">
+                    <span class="btn text-capitalize">prendre rendez vous</span>
+                </div>
             </div>
-        </div>
     </div>
-
-
-
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-5 text-center"><div class="data-container">
-                <span class="btn text-capitalize">prendre rendez vous</span>
-            </div>
-            </div>
-        </div>
     </div>
 
 </section>
@@ -103,7 +127,7 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-xl-12 text-center pt-5">
+        <div class="col-xl-12 col-lg-12 col-sm-12 text-center pt-5">
             <div id="demo" class="carousel slide" data-ride="carousel">
 
                 <!-- Indicators -->
@@ -165,7 +189,7 @@
 <section class="nouveauter">
     <div class="container">
         <div class="row">
-            <div class="col-xl-12"><h5>Besoin de conseils professionnels et personnalisés pour votre vue?</h5>
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12"><h5>Besoin de conseils professionnels et personnalisés pour votre vue?</h5>
                 <hr>
                 <h6>Disponibilité, honnêteté et écoute sont les maîtres mots de notre équipe qui vous accompagne dans vos démarches avec un grand professionnalisme.
                     Rêve Optique Oasis vous accueillir dans un environnement où l’esprit de service et l’ambiance amicale règnent.</h6>
@@ -173,7 +197,7 @@
         </div>
 
         <div class="row nouveauter">
-                <div class="col-xl-6">
+                <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
                         <h1>MEILLEURS VENTES</h1>
                         <h2 class="pt-0 pb-3 font-weight-bold">
                                 Polar
@@ -185,7 +209,7 @@
                         </h6>
                 </div>
                     <div class="hover14 column">
-                        <div class="col-xl-6 polar">
+                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 polar">
                             <figure><img src="image/Polar500px.jpg" alt="polar"></figure>
                         </div>
                     </div>
@@ -197,13 +221,13 @@
 
 <section class="service pb-5">
     <div class="container-fluid blokbleu">
-        <div class="row>">
-            <div class="col-xl-12"><h1 class="servicestitre text-center pb-5 text-capitalize"> Nos service</h1></div>
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12"><h1 class="servicestitre text-center pb-5 text-capitalize"> Nos service</h1></div>
         </div>
         <div class="row">
-            <div class="col-xl-4 box text-center"><i class="far fas fa-eye"></i><i class="far fas fa-eye"></i><p class="pt-3 pb-3">prise de l'écart pupillaire</p></div>
-            <div class="col-xl-4 box text-center"><i class="far fas fa-screwdriver"></i><i class="far fas fa-glasses"></i><p class="pt-3 pb-3">Ajustement gratuit</p></div>
-            <div class="col-xl-4 box text-center"><i class="far fas fa-truck"></i><p class="pt-3 pb-3">Envoi à domicile</p></div>
+            <div class="col-xl-4 col-md-12 col-sm-12 box text-center"><i class="far fas fa-eye"></i><i class="far fas fa-eye"></i><p class="pt-3 pb-3">prise de l'écart pupillaire</p></div>
+            <div class="col-xl-4 col-md-12 col-sm-12 box text-center"><i class="far fas fa-screwdriver"></i><i class="far fas fa-glasses"></i><p class="pt-3 pb-3">Ajustement gratuit</p></div>
+            <div class="col-xl-4 col-md-12 col-sm-12 box text-center"><i class="far fas fa-truck"></i><p class="pt-3 pb-3">Envoi à domicile</p></div>
         </div>
     </div>
 </section>
@@ -216,16 +240,17 @@
 
                 <div class="container">
                     <div class="row">
-                        <div class="col-xl-12 no-gutters nupolard text-center"><h5 class="titreparllaxe">POURQUOI CHOISIR UN VERRE<strong> POLARI...</strong></h5>
+                        <div class="col-xl-12 col-md-12 col-sm-12 no-gutters nupolard text-center"><h5 class="titreparllaxe">POURQUOI CHOISIR UN VERRE<strong> POLARI...</strong></h5>
                             <hr>
                             <h1><strong>À la recherche d’une paire de lunettes de soleil pour l’été?...</strong></h1>
                         </div>
                     </div>
                 </div>
+
+
         <div class="container-fluid">
             <div class="row imagebleu">
-
-                <div class="col-lg-4 col-xl-4  blok1 no-gutters">
+                <div class="col-lg-4 col-xl-4 col-md-12 col-sm-12 blok1 no-gutters">
                     <img src="../projet_final/image/lunetteHomme/man.png" alt="man" class="imageblok1">
                          <div class="overlay">
                                 <h3 class="text-center pt-5">LE TRAITEMENT BLUE</h3><br>
@@ -244,27 +269,30 @@
                          </div>
                 </div>
 
-                 <div class="col-lg-4 col-xl-4 blok1 no-gutters">
+                 <div class="col-lg-4 col-xl-4 col-md-12 col-sm-12 blok1 no-gutters">
                     <img src="../projet_final/image/lunetteHomme/woman.png" alt="man" class="imageblok1"/>
                         <div class="overlay">
                             <h3 class="text-center pt-5">LES VERRES PHOTOCHROMIQUES </h3><br>
                               <p class="text-justify">Les verres BlueActiv® 420 sont des verres photochromiques qui ont la caratéristique, en dehors de bloquer
-                                100% des rayons UVA et UVB, de filtrer la lumière bleue nocive (voir section LES MATERIAUX / Bluetech®
-                                420 et BlueActiv® 420).
-                                Disponibles en 2 teintes : Brun et Gris.
-                              <strong>Les verres Chromactiv™ photochromiques sans compromis réagissent rapidement aux changements de
-                              luminosité.</strong></p>
+                                    100% des rayons UVA et UVB, de filtrer la lumière bleue nocive (voir section LES MATERIAUX / Bluetech®
+                                    420 et BlueActiv® 420).
+                                    Disponibles en 2 teintes : Brun et Gris.
+                                  <strong>Les verres Chromactiv™ photochromiques sans compromis réagissent rapidement aux changements de
+                                  luminosité.</strong>
+                              </p>
                         </div>
-                  </div>
+                 </div>
 
-                <div class="col-lg-4 col-xl-4 blok1 no-gutters">
+                <div class="col-lg-4 col-xl-4 col-md-12 col-sm-12 blok1 no-gutters">
                     <img src="../projet_final/image/lunetteHomme/man.png" alt="man" class="imageblok1">
                     <div class="overlay">
                         <h3 class="pt-5">FLASH FASHION </h3><br>
-                        <p class="text-justify">FLASH FASHION activated by Transitions®, est un verre photochromique doté d’un traitement spécifique
-                        lui permettant de passer d’un léger Flash à un effet miroir lorsque le verre se teinte.
-                        <strong>Ce traitement est activé par la technologie Transitions® XTRActive™.
-                            Les verres Flash Fashion bloquent 100% des rayons UVA et UVB.</strong></p>
+                            <p class="text-justify">FLASH FASHION activated by Transitions®, est un verre photochromique doté d’un traitement spécifique
+                                lui permettant de passer d’un léger Flash à un effet miroir lorsque le verre se teinte.
+                                <strong>Ce traitement est activé par la technologie Transitions® XTRActive™.
+                                    Les verres Flash Fashion bloquent 100% des rayons UVA et UVB.
+                                </strong>
+                            </p>
                     </div>
                 </div>
             </div>
@@ -276,7 +304,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-xl-12 no-gutters nupolard text-center"><h5><strong>NUPOLAR®</strong>L’ART ET LA SCIENCE DES VERRES NUPOLAR®</h5>
+            <div class="col-xl-12 col-md-12 col-sm-12 no-gutters nupolard text-center"><h5><strong>NUPOLAR®</strong>L’ART ET LA SCIENCE DES VERRES NUPOLAR®</h5>
                 <hr>
                 <h1>lunette nouvelle géneration </h1>
             </div>
@@ -286,8 +314,8 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-xl-6 no-gutters"><img src="image/verrepolarise.png" alt="" class="verreploalrise"></div>
-                <div class="col-xl-6 flimfin"><h6><strong>Le « film fin », le must de la technologie avancée !</strong><br>
+            <div class="col-xl-6 col-md-12 col-sm-12 no-gutters"><img src="image/verrepolarise.png" alt="" class="verreploalrise"></div>
+                <div class="col-xl-6 col-md-12 col-sm-12 flimfin"><h6><strong>Le « film fin », le must de la technologie avancée !</strong><br>
                     Une technologie unique, celle du « film fin » intégré dans le verre blanc. Bien plus que de simples lunettes
                     de soleil, les verres polarisants Nupolar® n’ont rien de conventionnel et sont le résultat d’avancées
                     technologiques majeures. </h6>
@@ -302,7 +330,7 @@
         <div class="container-fluid">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-12 no-gutters nupolard text-center text-capitalize"><h5 class="titreparllaxe">chez Rêve Optique Oasis </h5>
+                    <div class="col-xl-12 col-md-12 col-sm-12no-gutters nupolard text-center text-capitalize"><h5 class="titreparllaxe">chez Rêve Optique Oasis </h5>
                         <hr>
                         <h1><strong>Vos yeux, Notre priorité!</strong></h1>
 
@@ -324,7 +352,7 @@
 <section class="test">
     <div class="container">
         <div class="row">
-            <div class="col-xl-12"><h5 class="pt-5">Le daltonisme (ou dyschromatopsie)</h5>
+            <div class="col-xl-12 col-md-12 col-sm-12"><h5 class="pt-5">Le daltonisme (ou dyschromatopsie)</h5>
                 <hr>
                 <h6>est une anomalie de la vision affectant la perception des couleurs.
                     D'origine généralement génétique elle a alors pour cause une déficience d'un ou
@@ -333,7 +361,7 @@
         </div>
 
         <div class="row">
-            <div class="col-xl-6"><h1>Comment les daltoniens voient?</h1>
+            <div class="col-xl-6 col-md-12 col-sm-12"><h1>Comment les daltoniens voient?</h1>
 
                 <h2 class="pt-0 pb-3 font-weight-bold">Causes</h2><h6><strong>La rétine, une membrane tapissant le fond de l'œil,
                     est sensible à la lumière et aux couleurs.</strong> Elle possède des cellules spécialisées, appelées cônes, qui sont sensibles aux couleurs.
@@ -342,7 +370,7 @@
                     Par exemple, une personne ne pouvant pas distinguer le rouge présente une anomalie des cônes correspondant à cette couleur.</h6>
             </div>
             <div class="hover14 column">
-                <div class="col-xl-6 polar"><figure><img src="image/colored-eye-1639459.jpg" alt="colored-eye" class="eye pt-3"></figure></div>
+                <div class="col-xl-6 col-md-12 col-sm-12 "><figure><img src="image/colored-eye-1639459.jpg" alt="colored-eye" class="eye pt-3"></figure></div>
             </div>
 
         </div>
@@ -350,7 +378,7 @@
 
                     <a href="test.html">
                         <div class="row bouton text-center pb-5">
-                            <div class="col-xl-3" id="btntest">
+                            <div class="col-xl-3 col-md-12 col-sm-12" id="btntest">
                                 <span class="noselect text-capitalize">
                                                 <h6 class="font-weight-bold testbouton">Commencer le Test!</h6>
                                             </span>
@@ -365,13 +393,13 @@
 <footer>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-xl-12 text-center"><h2 class="joindre">ACHAT NOUS-JOINDRE SUIVEZ-NOUS</h2></div>
+            <div class="col-xl-12 col-md-12 col-sm-12"></div>
         </div>
-        <div class="row ">
-            <div class="col-xl-2"><img src="image/logoAbdou3.png" class="logo" alt="logo"/></div>
-            <div class="col-xl-3"><p><br>NOS MARQUES<br>GARANTIE<br>RETOURS / ÉCHANGES<br>CONDITIONS <br>LÉGAL</p></div>
-            <div class="col-xl-3"><i class="fa fa-map-marker-alt"></i><p><br>Av.Larbi Ben M’hidi Beni-Isguen Ghardaïa 47000<br>+213 29 26 99 30</p></div>
-            <div class="col-xl-3"><p></p><br><i class="fa fa-twitter pb-3" aria-hidden="true"></i><br><a href="https://www.facebook.com/reve.optique.oasis/"><i class="fa fa-facebook-square"></i></a></div>
+        <div class="row">
+            <div class="col-xl-2 col-md-12 col-sm-12 text-xl-justify text-sm-center pb-5"><img src="image/logoAbdou3.png" class="logo" alt="logo"/></div>
+            <div class="col-xl-3 col-md-12 col-sm-12 text-xl-justify text-sm-center pb-5"><h2 class="joindre">ACHAT</h2><p><br>NOS MARQUES<br>GARANTIE<br>RETOURS / ÉCHANGES<br>CONDITIONS <br>LÉGAL</p></div>
+            <div class="col-xl-3 col-md-12 col-sm-12 text-xl-justify text-sm-center pb-5"><i class="fa fa-map-marker-alt"></i><h2 class="joindre" >NOUS-JOINDRE</h2><p><br>Av.Larbi Ben M’hidi Beni-Isguen Ghardaïa 47000<br>+213 29 26 99 30</p></div>
+            <div class="col-xl-3 col-md-12 col-sm-12 text-xl-justify text-sm-center pb-5"><h2 class="joindre">SUIVEZ-NOUS</h2><br><i class="fa fa-twitter pb-3" aria-hidden="true"></i><br><a href="https://www.facebook.com/reve.optique.oasis/"><i class="fa fa-facebook-square"></i></a></div>
         </div>
     </div>
 

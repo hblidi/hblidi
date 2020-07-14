@@ -15,19 +15,41 @@
 </head>
 <body>
 <header>
-    <div class="container-fluid witcherbanniere">
-        <div class="container-fluid">
-            <div class="row teal borderYtoX">
-                <div class="col-xl-2"><a href="index.html"><img src="image/logoAbdou3.png" class="logo" alt="logo"/></a></div>
-                <div class="col-xl-10">
+    <div class="d-block d-sm-block d-md-block d-lg-block d-xl-none">
+        <div class="Menu" style="--hue: 78.58093004893483">
+            <input class="Menu__toggle" id="Menu-toggle" type="checkbox"/>
+            <label class="Menu__toggle-label" for="Menu-toggle"></label>
+            <label class="Menu__toggle-label Menu__toggle-label--closer" for="Menu-toggle">
+                <svg class="Menu__icon" preserveAspectRatio="xMinYMin" viewBox="0 0 24 24">
+                    <path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z"></path>
+                </svg>
+                <svg class="Menu__icon" preserveAspectRatio="xMinYMin" viewBox="0 0 24 24">
+                    <path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z"></path>
+                </svg>
+            </label>
+            <ul class="Menu__content">
+                <li class="Menu__item" style="--x: 29; --y: 17;"><a class="Menu__link" href="index.html">HOME</a></li>
+                <li class="Menu__item" style="--x: 73; --y: 33;"><a class="Menu__link" href="homme.html">POUR HOMME</a></li>
+                <li class="Menu__item" style="--x: 28; --y: 59;"><a class="Menu__link" href="">POUR FEMME</a></li>
+                <li class="Menu__item" style="--x: 67; --y: 62;"><a class="Menu__link" href="enfants.html">POUR ENFANTS</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container-fluid menulunette d-none d-sm-none d-md-none d-lg-block d-xl-block">
+        <div class="row teal borderYtoX">
+
+            <a class="navbar-brand" href="#"><img src="image/logoAbdou3.png" class="logo"></a>
+            <nav class="navbar navbar-expand-lg  ml-auto">
+
+
+                <div class="collapse navbar-collapse ml-auto" id="navbarNav">
                     <ul id="menu-deroulant">
-
                         <li><a class="menu text-capitalize" href="index.html">accueil</a></li>
-
                         <li><a class="menu text-capitalize" href="homme.html">Pour Homme</a>
                             <div class="sousmenuH subnav-content">
                                 <ul>
-                                    <li><a href="#" class="sousmenu">Mattblack</a></li>
+                                    <li><a href="#" class="sousmenu">Mattblack</a><img src="image/lunetteHomme/haggar_hac101_chocolate_1_1.jpg" alt="" class="imagemenu"></li>
                                     <li><a href="#" class="sousmenu">Solander</a></li>
                                     <li><a href="#" class="sousmenu">Polar</a></li>
                                 </ul>
@@ -57,8 +79,9 @@
                         <li><a class="menu text-capitalize">Contact</a></li>
                     </ul>
                 </div>
-            </div>
+            </nav>
         </div>
+    </div>
 </header>
 
 <section class="banniere">
