@@ -326,18 +326,7 @@ main {
     -ms-scroll-snap-type: y mandatory;
     scroll-snap-type: y mandatory;
 }
-section {
-    -webkit-box-align: center;
-    align-items: center;
-    display: -webkit-box;
-    display: flex;
-    font-size: 3rem;
-    height: 100vh;
-    -webkit-box-pack: center;
-    justify-content: center;
-    scroll-snap-align: center;
-    width: 100vw;
-}
+
 .Menu {
     position: fixed;
 }

@@ -28,10 +28,6 @@
     position: center;
 }
 
-.container{
-
-}
-
 
 
 .parallax1 {
@@ -87,7 +83,6 @@ h5{
     color: black;
     font-size: 2rem;
     line-height: 2rem;
-    padding-top: 8rem;
 
 }
 h3{
@@ -118,7 +113,7 @@ p{
 }
 
 .flimfin{
-    padding-top: 5rem;
+
 }
 
 .logo{
@@ -133,10 +128,8 @@ p{
 
 }
 .nupolard{
-    padding-top: 3rem;
-    padding-bottom: 5rem;
-
-
+    padding-top: 8rem;
+    padding-bottom: 8rem;
 }
 .imglunette{
     height: 300px;
@@ -144,11 +137,7 @@ p{
 }
 .zone1{
     padding-bottom: 10rem;
-
-
 }
-
-
 
 .fa{
     color: white;
@@ -163,12 +152,6 @@ p{
     width: 500px;
     height: 450px;
 }
-
-.services{
-    padding-left: 3rem;
-    margin-bottom: 7rem;
-    padding-top: 8rem;
-}
 .icon{
     margin-top: 6rem;
     padding-left: 11rem;
@@ -177,11 +160,17 @@ p{
     width: 100%;
     height: 100%;
 }
-
-
+.nouveauter{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
 .blokbleu{
     background-color: #2c3242;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
     padding-top: 3rem;
+    padding-bottom: 3rem;
+
 }
 .servicestitre{
     font-size: 4rem;
@@ -377,14 +366,6 @@ p{
 
 
 
-.content
-{
-    background: white;
-    padding: 2em;
-    text-align: center;
-    text-transform: uppercase;
-
-}
 
 
 
@@ -761,9 +742,6 @@ footer{
 }
 
 
-
-
-
  /** Menu cellulaire **/
 :root {
     --speed: 0.85;
@@ -779,18 +757,7 @@ main {
     -ms-scroll-snap-type: y mandatory;
     scroll-snap-type: y mandatory;
 }
-section {
-    -webkit-box-align: center;
-    align-items: center;
-    display: -webkit-box;
-    display: flex;
-    font-size: 3rem;
-    height: 100vh;
-    -webkit-box-pack: center;
-    justify-content: center;
-    scroll-snap-align: center;
-    width: 100vw;
-}
+
 .Menu {
     position: fixed;
 }

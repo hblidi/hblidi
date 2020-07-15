@@ -14,8 +14,8 @@
 
 }
 @font-face {
-    src: url("../fonts/HennyPenny-Regular");
-    font-family: HennyPenny-Regular;
+    src: url("../fonts/Righteous-Regular");
+    font-family: Righteous-Regular;
 
 }
 
@@ -62,7 +62,7 @@ h2{
 
 }
 h3{
-    font-family: HennyPenny;
+    font-family: Righteous-Regular;
     font-size: 3rem;
     color:#3E63AB;
     padding-top: 6rem;
@@ -313,18 +313,7 @@ main {
     -ms-scroll-snap-type: y mandatory;
     scroll-snap-type: y mandatory;
 }
-section {
-    -webkit-box-align: center;
-    align-items: center;
-    display: -webkit-box;
-    display: flex;
-    font-size: 3rem;
-    height: 100vh;
-    -webkit-box-pack: center;
-    justify-content: center;
-    scroll-snap-align: center;
-    width: 100vw;
-}
+
 .Menu {
     position: fixed;
 }
