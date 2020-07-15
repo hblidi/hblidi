@@ -13,25 +13,25 @@
     font-family: Comfortaa;
 
 }
-@font-face {
-    src: url("../fonts/AbrilFatface-Regular");
-    font-family: AbrilFatface-Regular;
-}
 
 
 h1{
     font-family: Comfortaa;
-    font-size: 30px;
+    font-size: 2rem;
     color: white;
 }
 h2{
     font-family: Comfortaa;
-    font-size: 25px;
+    font-size: 1rem;
 }
 p{
     font-family: Comfortaa;
     font-size: 1rem;
     color: white;
+}
+h5{
+    font-family: Comfortaa;
+    font-size: 1rem;
 }
 .fas{
     color: #d3d9df;

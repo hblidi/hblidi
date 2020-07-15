@@ -5,7 +5,6 @@
 <html lang="fr-ca">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
     <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -15,7 +14,7 @@
 </head>
 <body>
 <header>
-    <div class="d-block d-sm-block d-md-block d-lg-block d-xl-none">
+    <div class="d-block d-sm-block d-md-block d-lg-none d-xl-none">
             <div class="Menu" style="--hue: 78.58093004893483">
                 <input class="Menu__toggle" id="Menu-toggle" type="checkbox"/>
                 <label class="Menu__toggle-label" for="Menu-toggle"></label>
@@ -240,12 +239,14 @@
 
 <section class="zon1">
 <div class="container-fluid parallax1 zone1">
+    <div class="container">
                     <div class="row">
-                        <div class="col-xl-12 col-md-12 col-sm-12 no-gutters nupolard text-center"><h5 class="titreparllaxe">POURQUOI CHOISIR UN VERRE<strong> POLARI...</strong></h5>
+                        <div class="col-xl-12 col-md-12 col-sm-12 col-12 no-gutters nupolard text-center"><h5 class="titreparllaxe">POURQUOI CHOISIR UN VERRE<strong> POLARI...</strong></h5>
                             <hr>
                             <h1><strong>À la recherche d’une paire de lunettes de soleil pour l’été?...</strong></h1>
                         </div>
                     </div>
+    </div>
 
 
             <div class="row imagebleu">
@@ -295,6 +296,7 @@
                     </div>
                 </div>
             </div>
+
 </div>
 </section>
 
@@ -383,6 +385,16 @@
                     </a>
     </div>
 </section>
+<form>
+    <div class="form-row">
+        <div class="col">
+            <input type="text" class="form-control" placeholder="First name">
+        </div>
+        <div class="col">
+            <input type="text" class="form-control" placeholder="Last name">
+        </div>
+    </div>
+</form>
 
 <footer>
     <div class="container-fluid">
@@ -405,7 +417,7 @@
 
 
 
-
+<meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=no">
 <script src="https://kit.fontawesome.com/09b879714b.js" crossorigin="anonymous"></script>
 <script src="bootstrap-4.5.0-dist/js/bootstrap.js"></script>
 </body>
