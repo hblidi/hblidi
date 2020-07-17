@@ -220,6 +220,9 @@ p{
         width: 78%;
         height: 98%;
     }
+    .btn{
+        font-size: 16px;
+    }
 
     .banniere{
         background-image: url("../image/background-cell.png");
@@ -238,12 +241,11 @@ p{
 
     }
 
-    .imagecell{
-        width: 78%;
-
-    }
     .joindre{
         font-size: 1rem;
+    }
+    .logofooter{
+        text-align: center;
     }
 }
 @media screen and (min-width: 1024px) and (max-width: 1366px) {
@@ -286,7 +288,7 @@ p{
     width: 100%;
     height: 100%;
     padding: 0;
-    margin: 0;
+
 }
 
 .imageblok1 {
@@ -842,6 +844,7 @@ main {
 
 .mu {
     position: fixed;
+    z-index: 999;
 }
 .mu__toggle {
     opacity: 0;

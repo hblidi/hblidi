@@ -136,6 +136,12 @@ h5{
     .joindre{
         font-size: 1rem;
     }
+    .logofooter{
+        text-align: center;
+    }
+    .imagezoom{
+        width: 70%;
+    }
 }
 
 
@@ -353,6 +359,7 @@ main {
 
 .mu {
     position: fixed;
+    z-index: 999;
 }
 .mu__toggle {
     opacity: 0;
