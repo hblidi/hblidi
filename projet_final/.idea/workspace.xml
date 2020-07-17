@@ -13,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -43,11 +43,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\HP Elite\Desktop\projet_final\css" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\HP Elite\Desktop\projet_final" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP Elite\Desktop\hblidi\projet_final\css" />
+      <recent name="C:\Users\HP Elite\Desktop\projet_final\css" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -84,7 +85,9 @@
       <workItem from="1594520270462" duration="829000" />
       <workItem from="1594579075431" duration="13256000" />
       <workItem from="1594647275943" duration="26143000" />
-      <workItem from="1594761583931" duration="17251000" />
+      <workItem from="1594761583931" duration="30430000" />
+      <workItem from="1594901344780" duration="26498000" />
+      <workItem from="1594990142614" duration="13675000" />
     </task>
     <servers />
   </component>
@@ -92,6 +95,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="377" y="158" key="#Inspections" timestamp="1594993345739">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="377" y="158" key="#Inspections/0.0.1500.960@0.0.1500.960" timestamp="1594993345739" />
     <state x="414" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593994340487">
       <screen x="0" y="0" width="1500" height="960" />
     </state>

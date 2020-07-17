@@ -13,133 +13,75 @@
     font-family: Comfortaa;
 
 }
-@font-face{
-    src: url("../fonts/HennyPenny-Regular.ttf");
-    font-family: HennyPenny-Regular;
-
+@font-face {
+    src: url("../fonts/AbrilFatface-Regular");
+    font-family: AbrilFatface-Regular;
 }
 
 .banniere{
-    background-image: url("../image/enfants.jpg");
+    background-image: url("../image/background-Contact.jpg");
     background-repeat: no-repeat;
-    background-color: #2b2b2b;
+    background-size: 100%;
     background-position: center center;
-    background-size: cover;
-    margin: auto;
-    position: center;
+
 
 
 }
-.witcherbanniere{
-    background-color: #1f1c17;
-    position: fixed;
-    z-index: 2;
-}
-img{
-    width: 100%;
-    height: 100%;
-    display: block;
-}
-.logo{
-    width: 160px;
-    height: 60px;
-
-}
-h1{
+h1 {
     font-family: Montserrat-Thin;
-    font-size: 7rem;
-    color: #3E63AB;
-    padding-left: 3rem;
-
-
-}
-h2{
-    font-family: Montserrat-Thin;
-    font-size: 3rem;
-    color: black;
-    padding-top: 25rem;
-    padding-left: 3rem;
-
-}
-h3{
-    font-family: HennyPenny-Regular;
-    font-size: 4rem;
-    color: #05d2c0;
-
+    font-size: 9rem;
     text-align: center;
+    color: #002752;
+    padding-top: 26rem;
+    padding-bottom: 18rem;
+    margin-left: 8rem;
+
+}
+h3 {
+    font-family: Montserrat-Thin;
+    font-size: 5rem;
+    color: #002752;
 }
 h4{
-    font-family: Montserrat-Thin;
-    font-size: 3rem;
-    color: #3E63AB;
-}
-p{
     font-family: Comfortaa;
     font-size: 1rem;
-    margin: 1rem;
-    color: white;
-
+    color: black;
 }
-h5{
-    font-family: Montserrat-Thin;
-    font-size: 3rem;
-    color: #3E63AB;
+iframe{
+    width: 600px;
+    height: 450px;
 }
-.fa{
-    color: white;
-    font-size: 39px;
-}
-.ros{
-    color: #f360bb;
-}
-.orange{
-    color: #f6850a;
-}
-
-.blokbleu{
-    background-color: #2c3242;
-}
-.joindre{
-    word-spacing: 9.5em;
-    font-size: 2rem;
-    font-family: Montserrat-Thin;
-    padding-top: 0;
-    color: white;
-}
-
-.imagezoom:hover {
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
-    transform: scale(1.5);
-}
-.imagezoom{
-    padding-top: 5rem;
-    padding-bottom: 7rem;
-}
-
 @media only screen and (max-width: 731px){
-    .banniere{
-        background-image: url("../image/background-enfants-cell.png");
+    .cellcontact{
+        background-image: url("../image/background-Contact-cell.png");
         background-repeat: no-repeat;
         background-position:  center center;
         background-size: cover;
         margin: auto;
         position: center;
     }
-    .cellenfants{
+    .cellcontact{
         padding-top: 55rem;
-
     }
     h3{
         font-size: 2rem;
+    }
+    iframe{
+        width: 377px;
+        height: 349px;
     }
     .joindre{
         font-size: 1rem;
     }
 }
-
-
-
+@media screen and (min-width: 1024px) and (max-width: 1366px){
+    h3{
+        font-size: 3rem;
+    }
+    .joindre{
+        font-size: 1rem;
+    }
+}
 
 
 /* NAVbar */
@@ -328,12 +270,65 @@ ul li a:hover{
 .sousmenuH{
     margin-left: -2rem;
 }
-hr{
-    background: #3E63AB;
-    height: 2px;
-    border-style: none;
-    margin: 2% 0
+
+
+.logo{
+    width: 160px;
+    height: 60px;
+
 }
+
+/** footer**/
+footer{
+    background-color: #2b2b2b;
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+}
+.joindre{
+    word-spacing: 9.5em;
+    font-size: 2rem;
+    font-family: Montserrat-Thin;
+    padding-top: 0;
+    color: white;
+}
+.fa{
+    color: white;
+    font-size: 2rem;
+}
+.fas{
+    color:white;
+    font-size: 4rem;
+
+}
+p{
+    font-family: Comfortaa;
+    font-size: 1rem;
+    margin: 1rem;
+    color: white;
+
+}
+.fa-check {
+    color: #3a4972;
+    font-size: 2rem;
+    padding-left: 5rem;
+}
+
+/** footer**/
+footer{
+    background-color: #2b2b2b;
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+
+}
+.joindre{
+    word-spacing: 9.5em;
+    font-size: 2rem;
+    font-family: Montserrat-Thin;
+    padding-top: 0;
+    color: white;
+}
+
+
 
 /** Menu cellulaire **/
 :root {
@@ -505,77 +500,3 @@ main {
 }
 
 
-.titrecellulaire{
-    font-family: Montserrat-Thin;
-    font-size: 5rem;
-    color: #3E63AB;
-    margin-left: 5rem;
-}
-
-
-
-
-
-
-
-
-/*boutton*/
-
-
-
-.btn {
-    cursor: pointer;
-    position: relative;
-    padding: 10px 20px;
-    font-size: 28px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    transition: all 1s;
-    font-family: Comfortaa;
-    color: white;
-
-
-
-}
-.btn:after, .btn:before {
-    content: " ";
-    width: 10px;
-    height: 10px;
-    position: absolute;
-    border: 0px solid #fff;
-    transition: all 1s;
-
-}
-.btn:after {
-    top: -1px;
-    left: -1px;
-    border-top: 5px solid white;
-    border-left: 5px solid white;
-}
-.btn:before {
-    bottom: -1px;
-    right: -1px;
-    border-bottom: 5px solid white;
-    border-right: 5px solid white;
-}
-.btn:hover {
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-}
-.btn:hover:before, .btn:hover:after {
-    width: 100%;
-    height: 100%;
-}
-
-.data-container {
-    display: flex;
-
-    padding-bottom: 25rem;
-
-}
-/** footer**/
-footer{
-    background-color: #2b2b2b;
-    padding-top: 5rem;
-    padding-bottom: 6rem;
-}

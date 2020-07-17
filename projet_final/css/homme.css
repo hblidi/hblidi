@@ -37,7 +37,7 @@
 }
 img{
     width: 100%;
-    height: 100%;
+    height: 89%;
     display: block;
 }
 .logo{
@@ -57,14 +57,15 @@ h2{
     font-family: Montserrat-Thin;
     font-size: 3rem;
     color: #d3d9df;
-    padding-top: 25rem;
     padding-left: 3rem;
+    padding-top: 20rem;
 }
 h3{
-    font-family: Montserrat-Thin;
+    font-family: Comfortaa;
     font-size: 3rem;
     color:#3E63AB;
-    padding-top: 6rem;
+    padding-top: 2rem;
+
 }
 h4{
     font-family: Montserrat-Thin;
@@ -114,11 +115,137 @@ p{
 }
 .imagezoom{
     padding-top: 5rem;
-    padding-bottom: 7rem;
+    padding-bottom: 3rem;
+}
+.titrehomme{
+    padding-left: 5rem;
 }
 
+@media only screen and (max-width: 731px){
+    h2{
+        font-size: 4rem;
+    }
+    h1{
+        font-size: 5rem;
+    }
+    h3{
+        font-size: 2rem;
+        font-family: Comfortaa;
+        padding-top: 0;
+    }
+    .nouvelle{
+        font-size: 3rem;
 
 
+    }
+    .banniere{
+        background-image: url("../image/background-homme-cell.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 100%;
+        position: center;
+        margin: 0;
+        margin-top: 0;
+
+
+    }
+    .imagezoom{
+        width: 85%;
+        height: 80%;
+    }
+}
+@media only screen and (max-width: 731px){
+    h5{
+        font-size: 1rem;
+    }
+    .titreparllaxe{
+        font-size: 1rem;
+    }
+    .imagecell{
+        width: 100%;
+        height: 100%;
+
+    }
+    .verreploalrise{
+        width: 10%;
+        height: 10%;
+    }
+    .eye{
+        width: 98%;
+        height: 98%;
+    }
+
+    .banniere{
+        background-image: url("../image/background-homme-cell.png");
+        background-repeat: no-repeat;
+        background-position:  center center;
+        background-size: cover;
+        margin: auto;
+        position: center;
+
+    }
+    .servicestitre{
+        font-size: 3rem;
+    }
+    .blokbleu{
+        background-color: #06505c;
+
+    }
+    .titrecellulaire{
+        padding-top: 55rem;
+    }
+    .joindre{
+        font-size: 2rem;
+    }
+    footer{
+        text-align: center;
+    }
+    .logofooter{
+        text-align: center;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+    .banniere{
+        background-image: url("../image/portrait-2194457.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+    }
+    .titrecellulaire{
+        padding-top: 19rem;
+    }
+    h2{
+        font-family: Comfortaa;
+        font-size: 5rem;
+        padding-top: 30rem;
+    }
+    h1{
+        font-family: Comfortaa;
+        font-size: 10rem;
+
+    }
+    ul li {
+        float: left;
+        width: 125px;
+        height: 40px;
+
+    }
+    .imageblok1{
+        text-align: center;
+    }
+    .blok1{
+        margin-left: 13rem;
+        padding: 12px;
+    }
+    .titreparllaxe{
+        font-size: 2.25rem;
+    }
+    .imageblok1{
+
+
+    }
+}
 
 
 /* NAVbar */
@@ -285,11 +412,13 @@ ul{
 }
 ul li {
     float: left;
-    width: 200px;
+    width: 162px;
     height: 40px;
     line-height: 40px;
     text-align: center;
 }
+
+
 
 ul li ul li {
     display: none;
@@ -311,6 +440,7 @@ hr{
     border-style: none;
     margin: 2% 0
 }
+
 /** Menu cellulaire **/
 :root {
     --speed: 0.85;
@@ -327,32 +457,32 @@ main {
     scroll-snap-type: y mandatory;
 }
 
-.Menu {
+.mu {
     position: fixed;
 }
-.Menu__toggle {
+.mu__toggle {
     opacity: 0;
     position: absolute;
 }
-.Menu__toggle:checked ~ .Menu__content .Menu__item {
+.mu__toggle:checked ~ .mu__content .mu__item {
     --active-x: var(--x);
     --active-y: var(--y);
     --scale: 1;
 }
-.Menu__toggle:checked ~ .Menu__toggle-label:not(.Menu__toggle-label--closer) {
+.mu__toggle:checked ~ .mu__toggle-label:not(.mu__toggle-label--closer) {
     --clip: circle(1000% at 0% 0%);
     height: 100vh;
     width: 100vw;
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
 }
-.Menu__toggle:checked ~ .Menu__toggle-label .Menu__icon:nth-of-type(1) {
+.mu__toggle:checked ~ .mu__toggle-label .mu__icon:nth-of-type(1) {
     --scale: 0;
 }
-.Menu__toggle:checked ~ .Menu__toggle-label .Menu__icon:nth-of-type(2) {
+.mu__toggle:checked ~ .mu__toggle-label .mu__icon:nth-of-type(2) {
     --scale: 1;
 }
-.Menu__toggle-label {
+.mu__toggle-label {
     cursor: pointer;
     height: calc(var(--size, 20) * 0.5vmin);
     width: calc(var(--size, 20) * 0.5vmin);
@@ -365,12 +495,12 @@ main {
     left: 0;
     transition: backdrop-filter calc(var(--speed, 1) * 1s) var(--ease), clip-path 0s, -webkit-clip-path 0s;
 }
-.Menu__toggle-label--closer {
+.mu__toggle-label--closer {
     z-index: 3;
     --scale: 0;
     background: #3E63AB;
 }
-.Menu__icon {
+.mu__icon {
     --scale: 1;
     height: calc(var(--size, 20) * 0.25vmin);
     width: calc(var(--size, 20) * 0.25vmin);
@@ -383,10 +513,10 @@ main {
     -webkit-transition: all calc(var(--speed, 1) * 1s) var(--ease);
     transition: all calc(var(--speed, 1) * 1s) var(--ease);
 }
-.Menu__icon:nth-of-type(2) {
+.mu__icon:nth-of-type(2) {
     --scale: 0;
 }
-.Menu__content {
+.mu__content {
     background: hsl(var(--hue, 0), 50%, 50%);
     margin: 0;
     display: block;
@@ -401,7 +531,7 @@ main {
     left: 0;
     z-index: 2;
 }
-.Menu__content:after {
+.mu__content:after {
     background: hsl(var(--hue, 0), 50%, 50%);
     content: '';
     border-radius: 50%;
@@ -413,7 +543,7 @@ main {
     top: 0;
     left: 0;
 }
-.Menu__item {
+.mu__item {
     font-family: Montserrat-Thin;
     background: hsl(var(--hue, 0), 50%, 50%);
     border-radius: 50%;
@@ -436,31 +566,31 @@ main {
     width: calc(var(--size, 20) * 1vmin);
 }
 @media (min-width: 768px) {
-    .Menu__item {
+    .mu__item {
         font-size: 3rem;
     }
 }
-.Menu__item:nth-of-type(1) {
+.mu__item:nth-of-type(1) {
     --delay: 0.1;
     --x: 35;
     --y: 35;
 }
-.Menu__item:nth-of-type(2) {
+.mu__item:nth-of-type(2) {
     --delay: 0.2;
     --x: 65;
     --y: 35;
 }
-.Menu__item:nth-of-type(3) {
+.mu__item:nth-of-type(3) {
     --delay: 0.3;
     --x: 35;
     --y: 65;
 }
-.Menu__item:nth-of-type(4) {
+.mu__item:nth-of-type(4) {
     --delay: 0.4;
     --x: 65;
     --y: 65;
 }
-.Menu__link {
+.mu__link {
     -webkit-box-align: center;
     align-items: center;
     color: #fff;
@@ -476,9 +606,10 @@ main {
     width: 100%;
     background: #3E63AB;
 }
-.Menu__link:hover {
+.mu__link:hover {
     text-decoration: underline;
 }
+
 
 .titrecellulaire{
     font-family: Montserrat-Thin;
